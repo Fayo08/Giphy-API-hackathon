@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/webquiz-api.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    
+    <title>Let's get Giphy</title>
+
+  </head>
+  <body>
+    <header class="header" id="home">
+      <nav class="nav">
+        <img src="./assets/LOGO.png" alt="Logo" class="logo--smaller">  <ul class="nav__links">
+          <li class="nav__item"><a href="./index.html">Home</a></li>
+          <li class="nav__item"><a href="#">About</a></li>
+        </ul>
+        <div class="nav__hamburger">
+        <div class="nav__hamburger--line"></div>
+        <div class="nav__hamburger--line"></div>
+        <div  class="nav__hamburger--line"></div>
+      </div>
+      </nav>
+    </header>
+    <main class="main">
+    <div class="header">
+      <h1>Let's review what we learned so far! </h1>
+    </div>
+    <div id="quiz">
+    <div class = "question"></div>
+    <div class = "answers"></div>
+    </div>
+    <button id="submit">Get Results</button>
+    <div id="results"></div>
+    <div id="randomGiphy"></div>
+
+  </main>
+    <footer>
+      <div class="footer__powered">
+        <img src="./assets/Poweredby_100px-Black_VertLogo.png" alt="GIPHY Logo" class="footer__logo">
+      </div>
+      <div class="footer__names">
+        <h4>Geneva Guinsatao | Favour Oyende | Brenda Marmolejo</h4>
+      </div>
+    </footer>
+ </body>
+ </html>
